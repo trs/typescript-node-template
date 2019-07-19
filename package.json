@@ -9,8 +9,7 @@
   "scripts": {
     "test:once": "jest",
     "test": "npm run test:once -- --watchAll",
-    "build": "tsc",
-    "lint": "prettier --write src/**/*.ts && eslint --fix src/**/*.ts"
+    "build": "tsc"
   },
   "keywords": [],
   "repository": {
@@ -56,7 +55,6 @@
   },
   "lint-staged": {
     "*.ts": [
-      "prettier --write",
       "eslint --fix",
       "git add"
     ]
