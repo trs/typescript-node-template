@@ -5,7 +5,7 @@
 # Usage
 
 ```sh
-$ curl -sL https://git.io/fjCXi | bash -s [path]
+$ curl -sL https://git.io/JvzrG | bash -s [path]
 ```
 
 - `path` defaults to the current directory (`.`)
